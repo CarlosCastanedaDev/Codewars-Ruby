@@ -8,8 +8,8 @@ def find_multiples(integer, limit)
   arr = []
   step = integer
   while step <= limit 
-     arr.push(step)
-     step += integer
+    arr.push(step)
+    step += integer
   end
   return arr
 end
