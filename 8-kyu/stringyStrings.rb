@@ -11,13 +11,13 @@
 # The size will always be positive and will only use whole numbers.
 
 def stringy(size)
-  str = ""
+  str = ''
   size.times do
-    if str.length % 2 == 0
-      str += '1'
-    else 
-      str += '0'
-    end
-  end 
+    str += if str.length.even?
+             '1'
+           else
+             '0'
+           end
+  end
   str
 end
