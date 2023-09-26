@@ -4,4 +4,4 @@
 
 def filter_list(l)
     l.select {|e| e.class == Integer}
-  end
+end
