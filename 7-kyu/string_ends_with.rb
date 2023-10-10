@@ -6,5 +6,5 @@
 # solution('abc', 'd') // returns false
 
 def solution(str, ending)
-    str.end_with?(ending)
-  end
+  str.end_with?(ending)
+end

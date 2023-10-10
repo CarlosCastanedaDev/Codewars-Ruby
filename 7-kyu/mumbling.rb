@@ -7,9 +7,9 @@
 # The parameter of accum is a string which includes only letters from a..z and A..Z.
 
 def accum(s)
-    str = []
-      s.chars.each_with_index do |elem, index|
-      str << (elem * (index + 1)).capitalize
-    end
-    str.join('-')
+  str = []
+  s.chars.each_with_index do |elem, index|
+    str << (elem * (index + 1)).capitalize
   end
+  str.join('-')
+end
